@@ -19,13 +19,17 @@ return (0);
 
 if (tree->right) {
 right = 1 + binary_tree_height(tree->right);
-} else {
+}
+else
+{
 right = 0;
 }
 
 if (tree->left) {
 left = 1 + binary_tree_height(tree->left);
-} else {
+}
+else
+{
 left = 0;
 }
 
