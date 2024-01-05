@@ -21,7 +21,9 @@ return (0);
 if (tree->parent)
 {
 depth = 1 + binary_tree_depth(tree->parent);
-} else {
+}
+else
+{
 depth = 0;
 }
 
