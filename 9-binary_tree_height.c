@@ -17,7 +17,8 @@ if (!tree)
 return (0);
 }
 
-if (tree->right) {
+if (tree->right)
+{
 right = 1 + binary_tree_height(tree->right);
 }
 else
@@ -25,7 +26,8 @@ else
 right = 0;
 }
 
-if (tree->left) {
+if (tree->left)
+{
 left = 1 + binary_tree_height(tree->left);
 }
 else
