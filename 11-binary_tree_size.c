@@ -18,7 +18,7 @@ if (!tree)
 return (0);
 }
 
-size =  binary_tree_size(tree->right)+ binary_tree_size(tree->left) + 1;
+size =  binary_tree_size(tree->right) + binary_tree_size(tree->left) + 1;
 
 return (size);
 }
